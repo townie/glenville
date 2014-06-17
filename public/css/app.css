@@ -1,0 +1,94 @@
+body {
+  margin-top: 60px;
+  padding: 00px;
+  background-color: #ECF0F1;
+  width: 100%;
+}
+
+.section_1 {
+  background-image: url("/img/main.jpg");
+  height: 95%;
+  width: 100%;
+  margin: -10px 0 0 0;
+  right: 0;
+  padding: 0;
+  position: fixed;
+  background-color:rgba(0, 0, 0, 0.5);
+  opacity: 0.9;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: white;
+}
+
+.jumbotron {
+  margin: 15%;
+  opacity: 0.75;
+}
+.jumbotron h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.section_2 {
+  background-image: url("/img/glenville.jpg");
+  height: 100%;
+  width: !important 100%;
+  margin-top: 1000px;
+  left:0px;
+  position: absolute;
+  padding: 0;
+  min-width: 100%;
+  background-color:rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  display:inline-block;
+}
+.price {
+  float: right;
+}
+
+/*#menu_section div {
+  display:inline-block;
+  text-align:center;
+}*/
+.menu_item {
+  display: inline-block;
+  width: 30%;
+  height: 20em;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+
+}
+
+.menu_item p{
+  color: rgba(255,255,255,1);
+  background: rgba(0,0,0,1);
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  display:inline-block;
+}
+.first{
+  background-image: url("/img/l-1.jpg");
+  background-size: cover;
+}
+.second{
+  background-image: url("/img/l-3.jpg");
+  background-size: cover;
+}
+.dessert{
+  background-image: url("/img/l-2.jpg");
+  background-size: cover;
+
+}
